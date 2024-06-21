@@ -1,0 +1,175 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../Imagenes/fondo\ patitas\ jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #bfd8f7;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 60px;
+}
+
+.user-icon img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.username {
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+#search-form {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search-input {
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #ffffff;
+    color: white;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #a4b5d4;
+}
+
+.search-icon {
+    font-size: 1.5em;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-image {
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.profile-image img {
+    width: 350px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 20%;
+}
+
+.info {
+    text-align: left;
+    flex-grow: 1;
+    padding-left: 300px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #dcf7ff;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .username {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .info h2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right {
+        margin-left: 0;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-image img {
+        width: 100px;
+    }
+
+    .search-input, .search-button, .search-icon {
+        font-size: 0.8em;
+    }
+}
+
+.servicios {
+    margin-top: -20px;
+}
+
+img {
+    width: 350px;
+    height: auto;
+}
+

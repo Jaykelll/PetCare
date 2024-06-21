@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contacto</title>
+    <link rel="stylesheet" type="text/css" href="./css/Contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="user-icon">
+                <img src="./Imagenes/logo.png" alt="Logo">
+            </div>
+            <form id="search-form" action="/buscar" method="get">
+                <input type="text" name="query" placeholder="Search" class="search-input">
+                <button type="submit" class="search-button"><i class="bi bi-search" style="color: blue;"></i></button>
+                <i class="bi bi-justify search-icon" style="color: blue;"></i>
+            </form>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <div class="text-section">
+                <h1>Contacto</h1>
+                <h4>Dirección:</h4>
+                <p>cra 151 c# 143-27</p>
+                <h4>Numero:</h4>
+                <p>3209197984</p>
+                <h4>E-mail:</h4>
+                <p>Pet.Care@gmail.com</p>
+                <h4>Redes sociales:</h4> <br><br>
+                <div style="text-align: left;">
+
+<a href="https://www.facebook.com/lauranicolle.salazarvitoviz?mibextid=ZbWKwL" style="display: inline-block; margin-right: 20px;">
+    <img src="./Imagenes/facebook icono negro.png" alt="" style="width: 30px; height: 30px;">
+</a>
+
+
+<a href="https://www.instagram.com/lauranicollesalazar?igsh=NW5iZG03Z2Fsd2Fo" style="display: inline-block; margin-right: 20px; margin-left: 20px;">
+    <img src="./Imagenes/istagram icono negro.png" alt="" style="width: 30px; height: 30px;">
+</a>
+
+
+<a href="https://wa.me/qr/BSZLBRN3AUL6F1" style="display: inline-block; margin-right: 20px; margin-left: 20px;">
+    <img src="./Imagenes/whatsapp icono negro.png" alt="" style="width: 30px; height: 30px;">
+</a>
+
+</div>
+                
+                
+            </div>
+            <div class="form-section">
+                <h2>Formulario de Contacto</h2>
+                <form action="/enviar" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="sugerencias">Sugerencias:</label>
+                    <input type="text" id="sugerencias" name="sugerencias">
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                    <button type="reset" class="send-button">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="buttons">
+            <a href="index.html" class="button">Home</a>
+            <a href="Srvicios.html" class="button">Servicios</a>
+            <a href="Equipo_Medico.html" class="button">Perfil Veterinario</a>
+            <a href="Testimonios.html" class="button">Testimonios</a>
+            <a href="Contacto.html" class="button">Contacto</a>
+        </div>
+    </div>
+</body>
+</html>
